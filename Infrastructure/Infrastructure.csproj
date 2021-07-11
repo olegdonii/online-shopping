@@ -5,6 +5,10 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-preview.2.21154.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Data\SeedData" />
+    </ItemGroup>
+
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
